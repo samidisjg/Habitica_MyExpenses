@@ -1,18 +1,48 @@
-“Habitica Expense Manager” is a task management app which is helps to manage daily expense, 
-savings, to do expenses tasks. Therefore, without any hassle, users can manage their daily expenses and 
-set budgets effortlessly through the habitica. Users can add, edit and delete any task if it is no longer 
-needed. Further there is a search functionality to filter out each of the relevant tasks. Users can now 
-control their expenses with a ease with the habitica.
+# Habitica Expense Manager
 
-Features:
-✓ Intuitive user interface for managing expense tasks.
-✓ Utilized recycler view to display a list of expense tasks
-✓ An SQLite database using Room library to store the expense task data locally on the device.
-✓ DAO (Data Access Object) for performing CRUD operations in the task database.
-✓ Utilize Kotlin Coroutines for performing asynchronous database operations.
-✓ Coroutines for tasks such as inserting, updating, deleting, and querying tasks from the database
-✓ Implemented the View Model architecture to separate UI-related data from UI controller logic.
-✓ Create a View Model class that encapsulates the app's UI data and business logic related to task 
-  management and observe the changes in the task data and update the UI.
-✓ Implemented user interaction functionalities. (Add, view, update, delete)
-✓ Enhancements: Search functionality (Filter out each task by title)
+Habitica Expense Manager is a task management app designed to help you effortlessly manage your daily expenses, savings, and to-do expense tasks. With an intuitive user interface and powerful features, controlling your expenses has never been easier.
+
+## Features
+
+- **Intuitive User Interface**: Easily manage expense tasks with a user-friendly interface.
+- **Recycler View**: Display a list of expense tasks efficiently.
+- **Local Data Storage**: Utilize SQLite database using Room library to store expense task data locally on your device.
+- **DAO Operations**: Perform CRUD operations in the task database seamlessly.
+- **Asynchronous Operations**: Utilize Kotlin Coroutines for smooth asynchronous database operations.
+- **ViewModel Architecture**: Separate UI-related data from UI controller logic for cleaner code.
+- **User Interaction Functionalities**: Add, view, update, and delete tasks effortlessly.
+
+## Usage
+
+### Adding a Task
+
+1. Open the Habitica Expense Manager app.
+2. Navigate to the "Add Task" section.
+3. Enter the details of your expense task, such as title, amount, and due date.
+4. Click on the "Add" button to add the task to your list.
+
+### Viewing Tasks
+
+1. Open the Habitica Expense Manager app.
+2. Browse through the list of expense tasks displayed on the home screen.
+3. Click on a task to view its details, such as title, amount, and due date.
+
+### Updating a Task
+
+1. Open the Habitica Expense Manager app.
+2. Navigate to the task you want to update.
+3. Click on the task to view its details.
+4. Click on the "Edit" button.
+5. Update the task details as required.
+6. Click on the "Save" button to save the changes.
+
+### Deleting a Task
+
+1. Open the Habitica Expense Manager app.
+2. Navigate to the task you want to delete.
+3. Long press on the task to select it.
+4. Click on the "Delete" button to remove the task from your list.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to the development of Habitica Expense Manager, please fork the repository and submit a pull request with your changes.
