@@ -15,14 +15,15 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:background="@drawable/border"
-            android:padding="16dp">
+            android:padding="16dp"
+            android:backgroundTint="@color/accent_4">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:id="@+id/noteTitle"
                 android:layout_weight="200"
-                android:textColor="@color/primary_color"
+                android:textColor="@color/black"
                 android:fontFamily="@font/poppins"
                 android:text="Task Title"
                 android:textStyle="bold"
@@ -37,7 +38,7 @@
                 android:text="Description"
                 android:textSize="14sp"
                 android:fontFamily="@font/poppins"
-                android:textColor="@color/accent_color"/>
+                android:textColor="@color/black"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

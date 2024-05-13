@@ -7,7 +7,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".HomeFragment">
+        tools:context=".HomeFragment"
+        android:background="@color/accent_4"
+        >
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/addNoteFab"
@@ -38,7 +40,25 @@
             android:layout_height="match_parent"
             android:id="@+id/emptyNotesImage"
             android:visibility="gone"
-            android:src="@drawable/back123"/>
+            android:src="@drawable/back123"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="346dp"
+            android:layout_height="66dp"
+            android:text="@string/app_name"
+            android:visibility="gone"
+            android:textColor="#9C27B0"
+            android:textColorHighlight="#9C27B0"
+            android:textSize="32sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.907"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.246" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -18,7 +18,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/poppins"
-            android:text="Edit Task."
+            android:text="Edit Expense Task."
             android:textStyle="bold"
             android:textColor="@color/primary_color"
             android:textSize="24sp" />
@@ -27,11 +27,12 @@
             android:id="@+id/editNoteTitle"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="Enter the title"
+            android:hint="Edit the expense"
             android:padding="12dp"
             android:textSize="20sp"
             android:layout_below="@id/editNoteHeading"
             android:background="@drawable/border"
+            android:backgroundTint="@color/accent_color"
             android:layout_marginTop="16dp"
             android:maxLines="1"
             android:fontFamily="@font/poppins"/>
@@ -45,6 +46,7 @@
             android:padding="12dp"
             android:textSize="18sp"
             android:fontFamily="@font/poppins"
+            android:backgroundTint="@color/accent_color"
             android:background="@drawable/border"
             android:layout_below="@id/editNoteTitle"
             android:layout_marginTop="12dp" />
@@ -58,7 +60,7 @@
             android:clickable="true"
             android:backgroundTint="@color/primary_color"
             android:tintMode="@color/white"
-            android:src="@drawable/outline_cloud_done_24"
+            android:src="@drawable/baseline_done_outline_24"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:contentDescription="editFab" />

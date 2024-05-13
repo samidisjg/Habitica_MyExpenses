@@ -3,6 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="primary_color">#8E44AD </color>
-    <color name="accent_color">#6466ED</color>
+    <color name="accent_color">#EBDEF0</color>
+    <color name="accent_color2">#E8DAEF</color>
+    <color name="accent_color_3"> #C39BD3 </color>
+    <color name="accent_4">#E8DAEF</color>
     <color name="secondary_color">#EFF7FA</color>
 </resources>
