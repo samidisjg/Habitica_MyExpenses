@@ -6,10 +6,10 @@ Habitica Expense Manager is a task management app designed to help you effortles
 
 - **Intuitive User Interface**   
 - **Recycler View**
-- **Local Data Storage**: Utilize SQLite database using Room library to store expense task data locally on your device.
-- **DAO Operations**: Perform CRUD operations in the task database seamlessly.
+- **Local Data Storage**:  Utilize SQLite database using Room library to store expense task data locally on your device.
+- **DAO Operations**:  Perform CRUD operations in the task database seamlessly.
 - **Asynchronous Operations**: Utilize Kotlin Coroutines for smooth asynchronous database operations.
-- **ViewModel Architecture**: Separate UI-related data from UI controller logic for cleaner code.
+- **ViewModel Architecture**:  Separate UI-related data from UI controller logic for cleaner code.
 - **User Interaction Functionalities**
 
 ## Usage
