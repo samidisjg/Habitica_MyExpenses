@@ -43,6 +43,6 @@ Habitica Expense Manager is a task management app designed to help you effortles
 3. Long press on the task to select it.
 4. Click on the "Delete" button to remove the task from your list.
 
-## Contributing
+By Samidi Jayawickrama
 
-Contributions are welcome! If you'd like to contribute to the development of Habitica Expense Manager, please fork the repository and submit a pull request with your changes.
+
